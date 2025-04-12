@@ -16,5 +16,10 @@ export default defineConfig({
         assetFileNames: 'assets/[name].[ext]'
       }
     }
+  },
+  server: {
+    headers: {
+      'Content-Type': 'application/javascript; charset=utf-8'
+    }
   }
 })
